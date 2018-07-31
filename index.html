@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="rus">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework for lrsson 3</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+    <style type="text/css">
+        .folder-wrapper {
+            padding: 10px;
+        }
+
+        .folder-item {
+            padding: 5px;
+        }
+
+        .folder-item__content {
+            display: flex;
+        }
+
+        .folder__icon {
+            margin-right: 8px;
+            color: darkcyan;
+        }
+
+        .folder-item__subfolder {
+            margin-left: 20px;
+            margin-top: 8px;
+        }
+
+        .folder-item__subfolder .folder__icon {
+            color: tomato;
+        }
+
+        .folder-item--file .folder__icon {
+            color: sandybrown;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="folders-wrapper">
+        <div class="folder-item">
+            <div class="folder-item__content">
+                <div class="folder__icon folder__icon--open">
+                    <i class="fas fa-folder-open"></i>
+                </div>
+                <span>Folder 1</span>
+            </div>
+            <div class="folder-item__subfolder">
+                <div class="folder-item">
+                    <div class="folder-item__content">
+                        <div class="folder__icon folder__icon--open">
+                            <i class="fas fa-folder-open"></i>
+                        </div>
+                        <span>Sub-folder 1-1</span>
+                    </div>
+                    <div class="folder-item__subfolder">
+                        <div class="folder-item folder-item--file">
+                            <div class="folder-item__content">
+                                <div class="folder__icon">
+                                    <i class="fas fa-file"></i>
+                                </div>
+                                <span>File 1-1-1</span>
+                            </div>
+                        </div>
+                        <div class="folder-item folder-item--file">
+                                <div class="folder-item__content">
+                                    <div class="folder__icon">
+                                        <i class="fas fa-file"></i>
+                                    </div>
+                                    <span>File 1-1-2</span>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="folder-item">
+                    <div class="folder-item__content">
+                        <div class="folder__icon">
+                            <i class="fas fa-folder"></i>
+                        </div>
+                        <span>Sub-folder 1-2</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="folder-item">
+            <div class="folder-item__content">
+                <div class="folder__icon">
+                    <i class="fas fa-folder"></i>
+                </div>
+                <span>Folder 2</span>
+            </div>
+        </div>
+        <div class="folder-item">
+            <div class="folder-item__content">
+                <div class="folder__icon folder__icon--open">
+                    <i class="fas fa-folder-open"></i>
+                </div>
+                <span>Folder 3</span>
+            </div>
+            <div class="folder-item__subfolder">
+                <div class="folder-item">
+                    <div class="folder-item__content">
+                        <div class="folder__icon">
+                            <i class="fas fa-folder"></i>
+                        </div>
+                        <span>Sub-folder 3-1</span>
+                    </div>
+                </div>
+                <div class="folder-item">
+                    <div class="folder-item__content">
+                        <div class="folder__icon">
+                            <i class="fas fa-folder"></i>
+                        </div>
+                        <span>Sub-folder 3-2</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="folder-item">
+            <div class="folder-item__content">
+                <div class="folder__icon">
+                    <i class="fas fa-folder"></i>
+                </div>
+                <span>Folder 4</span>
+            </div>
+        </div><div class="folder-item">
+            <div class="folder-item__content">
+                <div class="folder__icon">
+                    <i class="fas fa-folder"></i>
+                </div>
+                <span>Folder 3</span>
+            </div>
+        </div>
+        <div class="folder-item">
+            <div class="folder-item__content">
+                <div class="folder__icon">
+                    <i class="fas fa-folder"></i>
+                </div>
+                <span>Folder 4</span>
+            </div>
+        </div>
+        <div class="folder-item">
+            <div class="folder-item__content">
+                <div class="folder__icon">
+                    <i class="fas fa-folder"></i>
+                </div>
+                <span>Folder 5</span>
+            </div>
+        </div>
+        <div class="folder-item">
+            <div class="folder-item__content">
+                <div class="folder__icon">
+                    <i class="fas fa-folder"></i>
+                </div>
+                <span>Folder 6</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
